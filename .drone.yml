@@ -1,0 +1,9 @@
+build:
+  clone:
+    skip_verify: true
+    tags: true
+  image: golang
+  commands:
+    - go version
+    - go test -bench .
+
